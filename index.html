@@ -1,123 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Styled HTML Page</title>
 
     <style>
-        /* Define a professional color palette */
-        :root {
-            --primary-color: #007BFF; /* Bright Blue */
-            --secondary-color: #6C757D; /* Gray/Slate */
-            --background-color: #F8F9FA; /* Off-White/Light Gray */
-            --text-color: #343A40; /* Dark Gray for text */
-            --border-color: #DEE2E6; /* Light Border */
-        }
+      /* Define a professional color palette */
+      :root {
+        --primary-color: #007bff; /* Bright Blue */
+        --secondary-color: #6c757d; /* Gray/Slate */
+        --background-color: #f8f9fa; /* Off-White/Light Gray */
+        --text-color: #343a40; /* Dark Gray for text */
+        --border-color: #dee2e6; /* Light Border */
+      }
 
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;
-        }
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: black;
+        color: var(--text-color);
+        margin: 0;
+        padding: 20px;
+        line-height: 1.6;
+      }
 
-        .container {
-            max-width: 960px; /* Standard content width */
-            margin: 0 auto; /* Center the container on the page */
-            background-color: #ffffff; /* White content background */
-            padding: 30px;
-            border-radius: 8px; /* Slightly rounded corners */
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-        }
+      .container {
+        max-width: 960px; /* Standard content width */
+        margin: 0 auto; /* Center the container on the page */
+        background-color: #ffffff; /* White content background */
+        padding: 30px;
+        border-radius: 8px; /* Slightly rounded corners */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      }
 
-        header {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 20px;
-            text-align: center;
-            border-radius: 6px 6px 0 0; /* Match container top corners */
-            margin: -30px -30px 20px -30px; /* Extend header to container edges */
-        }
+      header {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 6px 6px 0 0; /* Match container top corners */
+        margin: -30px -30px 20px -30px; /* Extend header to container edges */
+      }
 
-        h1 {
-            margin-top: 0;
-            margin-bottom: 5px;
-        }
+      h1 {
+        margin-top: 0;
+        margin-bottom: 5px;
+      }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+        transition: color 0.3s;
+      }
 
-        nav a:hover {
-            color: #E9ECEF; /* Lighter color on hover */
-        }
+      nav a:hover {
+        color: #e9ecef; /* Lighter color on hover */
+      }
 
-        .content-section {
-            padding: 20px 0;
-            border-bottom: 1px solid var(--border-color);
-        }
+      .content-section {
+        padding: 20px 0;
+        border-bottom: 1px solid var(--border-color);
+      }
 
-        .content-section:last-child {
-            border-bottom: none; /* No border on the last section */
-        }
+      .content-section:last-child {
+        border-bottom: none; /* No border on the last section */
+      }
 
-        h2 {
-            color: var(--primary-color);
-            border-left: 4px solid var(--primary-color);
-            padding-left: 10px;
-        }
+      h2 {
+        color: var(--primary-color);
+        border-left: 4px solid var(--primary-color);
+        padding-left: 10px;
+      }
 
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            padding-top: 15px;
-            border-top: 1px solid var(--border-color);
-            color: var(--secondary-color);
-            font-size: 0.9em;
-        }
+      footer {
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 15px;
+        border-top: 1px solid var(--border-color);
+        color: var(--secondary-color);
+        font-size: 0.9em;
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="container">
+      <header>
+        <h1>My Beautiful Webpage</h1>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </nav>
+      </header>
 
-        <header>
-            <h1>My Beautiful Webpage</h1>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
+      <div class="content-section">
+        <h2>Welcome to the Site</h2>
+        <p>
+          This is an example of an **organized and styled** HTML page. The
+          layout uses a centered container to keep the content easy to read, and
+          the colors are designed to be professional and eye-pleasing.
+        </p>
+      </div>
 
-        <div class="content-section">
-            <h2>Welcome to the Site</h2>
-            <p>This is an example of an **organized and styled** HTML page. The layout uses a centered container to keep the content easy to read, and the colors are designed to be professional and eye-pleasing.</p>
-        </div>
+      <div class="content-section">
+        <h2>Key Features</h2>
+        <ul>
+          <li>**Clear Hierarchy:** Uses and paragraphs for structure.</li>
+          <li>
+            **Pleasant Colors:** Utilizes blue for accents and a light
+            background for readability.
+          </li>
+          <li>
+            **Responsive Design:** Includes `<meta name="viewport" />` for
+            mobile compatibility.
+          </li>
+          <li>
+            **Organized CSS:** Styles are defined in the tag for a clean
+            separation.
+          </li>
+        </ul>
+      </div>
 
-        <div class="content-section">
-            <h2>Key Features</h2>
-            <ul>
-                <li>**Clear Hierarchy:** Uses `<h1>`, `<h2>`, and paragraphs for structure.</li>
-                <li>**Pleasant Colors:** Utilizes blue for accents and a light background for readability.</li>
-                <li>**Responsive Design:** Includes `<meta name="viewport">` for mobile compatibility.</li>
-                <li>**Organized CSS:** Styles are defined in the  tag for a clean separation.</li>
-            </ul>
-        </div>
-
-        <footer>
-            <p> Abi</p>
-        </footer>
-
+      <footer>
+        <p>Abi</p>
+      </footer>
     </div>
-
-</body>
+  </body>
 </html>

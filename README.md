@@ -1,3 +1,3 @@
-I am learning merging
-i added this in edit
-this is retracting the change
+I am learning merging.
+i added this in edit.
+this is confusing .

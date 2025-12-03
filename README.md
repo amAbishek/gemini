@@ -1,2 +1,3 @@
-I am learning merging and fetching vs pulling
-this line added in main branch
+I am learning merging
+i added this in edit
+this is retracting the change
